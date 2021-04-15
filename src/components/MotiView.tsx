@@ -1,0 +1,24 @@
+import {View} from 'moti';
+import React from 'react';
+import {StyleSheet} from 'react-native';
+
+const MotiView = () => {
+  return (
+    <View
+      style={styles.motiTest}
+      from={{opacity: 0}}
+      animate={{opacity: 1}}
+      transition={{type: 'timing', duration: 3000, loop: true}}
+    />
+  );
+};
+
+const styles = StyleSheet.create({
+  motiTest: {
+    height: 100,
+    width: 200,
+    backgroundColor: '#ff00ff',
+  },
+});
+
+export default MotiView;
