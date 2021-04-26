@@ -67,13 +67,14 @@ const App = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="MotiView">
+          <Section title="Counter">
             <Text>{counter}</Text>
+          </Section>
+          <Section title="MotiView">
             <MotiView />
           </Section>
           <Section title="ReanimatedView">
-            <Text>{counter}</Text>
-            <ReanimatedView />
+            <ReanimatedView counter={counter} />
           </Section>
         </View>
       </ScrollView>

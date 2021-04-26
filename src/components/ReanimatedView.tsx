@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import {StyleSheet} from 'react-native';
 import Animated, {
   useAnimatedStyle,
@@ -7,11 +7,11 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated';
 
-const ReanimatedView = () => {
+const ReanimatedView = ({counter}: {counter: number}) => {
   const opacity = useSharedValue(0);
   const animatedStyles = useAnimatedStyle(() => {
     return {
-      opacity: opacity.value,
+      opacity: opacity.value + (counter - counter),
     };
   });
   useEffect(() => {

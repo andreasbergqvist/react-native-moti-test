@@ -950,17 +950,17 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@motify/components@^0.8.2":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@motify/components/-/components-0.8.2.tgz#0a4e9289a27e7e38cf178ef01ffba71dfd45de3a"
-  integrity sha512-GHvaPU28p51i2y5KVeba6xc9/ru+vmJdCAwQ9aVutcIoS77vofxTNvt8oW0s4aXdgrZg2iuEn/joYX80Ic5Wvg==
+"@motify/components@^0.10.1-alpha.1+393f37d":
+  version "0.10.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/@motify/components/-/components-0.10.1-alpha.1.tgz#06888a9eb7d480ab07263d932a72a89937205577"
+  integrity sha512-v/1g7EMfURoZNw1Bkt7Oit5yIWjnsXoE9NF+Xr5l17HQ5rZjkltdOig34bwct2eXHaPos8n8tU0UhKjKX8bJlw==
   dependencies:
-    "@motify/core" "^0.8.2"
+    "@motify/core" "^0.10.1-alpha.1+393f37d"
 
-"@motify/core@^0.8.2":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@motify/core/-/core-0.8.2.tgz#c5a7ff1490964a20ce6ea4937be7c5590ee37a40"
-  integrity sha512-VI/ynB55rIhJfRRtN2lsocITzjJMw+hbFLNTE/YIkHLqQEsvq6MZ1aTo3hEbYPHyue04DKq+V2CHgF48T6BKHg==
+"@motify/core@^0.10.1-alpha.1+393f37d":
+  version "0.10.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/@motify/core/-/core-0.10.1-alpha.1.tgz#69947b4d5c444905dd04310c14618d4b7d49f51d"
+  integrity sha512-PM+uNcRYPg4Yqj4X41I8lQgqyL96PdNrReOfx577i2MoXa5IBfd3JiU+JeIQDGyDfi8Yd5YgxhYkM0G55rWI8A==
   dependencies:
     framer-motion "^3.9.1"
 
@@ -4759,13 +4759,13 @@ mockdate@^3.0.2:
   resolved "https://registry.yarnpkg.com/mockdate/-/mockdate-3.0.5.tgz#789be686deb3149e7df2b663d2bc4392bc3284fb"
   integrity sha512-iniQP4rj1FhBdBYS/+eQv7j1tadJ9lJtdzgOpvsOHng/GbcDh2Fhdeq+ZRldrPYdXvCyfFUmFeEwEGXZB5I/AQ==
 
-moti@^0.8.2:
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/moti/-/moti-0.8.2.tgz#9688a8e2a1242b422e8168a1e87910d59a021917"
-  integrity sha512-aThpxPTnXGwPpwLJOGaK6/boL7p8Wcc+lHcEKu6MFhG0HxQBS7bsBCXHBf1rq8vrv6/QjFG8FqyhFIm0HmmDaQ==
+moti@^0.10.1-alpha.1:
+  version "0.10.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/moti/-/moti-0.10.1-alpha.1.tgz#5d2ef10a610f7f7820105fe1cd64569daeea70d4"
+  integrity sha512-4DO3PrHIS6/EEqFB4zWxNeZe2LfMIc2OGpZK9k8AGL2w6j8CMmNYlw6TQ5P5ELAHjMq2SWAeq4xvxFvJN2z+DQ==
   dependencies:
-    "@motify/components" "^0.8.2"
-    "@motify/core" "^0.8.2"
+    "@motify/components" "^0.10.1-alpha.1+393f37d"
+    "@motify/core" "^0.10.1-alpha.1+393f37d"
 
 ms@2.0.0:
   version "2.0.0"
