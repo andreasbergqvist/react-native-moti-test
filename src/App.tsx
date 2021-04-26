@@ -74,7 +74,7 @@ const App = () => {
             <MotiView />
           </Section>
           <Section title="ReanimatedView">
-            <ReanimatedView counter={counter} />
+            <ReanimatedView />
           </Section>
         </View>
       </ScrollView>
